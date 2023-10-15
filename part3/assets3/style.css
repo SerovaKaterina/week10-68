@@ -1,0 +1,38 @@
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+}
+.prev,
+.next {
+  background: none;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: large;
+}
+.prev:hover,
+.next:hover {
+  background: red;
+}
+img {
+  width: 254px;
+  height: 256px;
+}
+.slider {
+  width: 254px;
+  height: 256px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid black;
+}
+.slider_img {
+  display: flex;
+  width: 768px;
+  height: 256px;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+.slider_button {
+  padding-left: 35%;
+  padding-top: 20px;
+}
