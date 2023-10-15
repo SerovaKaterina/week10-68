@@ -152,7 +152,7 @@ const thisYear = 2023;
 function calculateYearsSinceLastOlympics(a, b) {
 	return a - b;
 }
-console.log('С момента летней олимпиады в Токио прошло ' + calculateYearsSinceLastOlympics(thisYear, lastOlympicsYear) + ' года',
+console.log('С момента летней Олимпиады в Токио прошло ' + calculateYearsSinceLastOlympics(thisYear, lastOlympicsYear) + ' года',
 );
 
 //Задание 16
